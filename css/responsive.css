@@ -1,0 +1,300 @@
+/*	RESPONSIVE 
+---------------------------*/
+@media only screen and (max-width:1280px) and (min-width:975px)
+{
+	#latest_update{
+		width:96%;
+	}
+
+	.update_head{
+		width:8.5%;
+	}
+
+	.update_content{
+		width:88%;
+	}
+}
+
+/*for tablet*/
+@media only screen and (max-width:976px) and (min-width:767px)
+{
+	.search{
+		height:35px;
+	}
+	
+	#nav_advert img{
+		height:100px;
+	}
+	
+	.update_head{
+		width:11%;
+	}
+	
+	.update_content{
+		width:85%;
+	}
+	
+	#content_top_stories{
+		height:320px;
+	}
+	
+	#top_stories img{
+		height:300px;
+	}
+	
+	#content_top_stories .side_stories{
+		height:300px;
+	}
+	
+	#content_top_stories .side_stories .side_photo{
+		height:60px;
+	}
+	
+	#content_top_stories  .side_stories .side_photo img{
+		width:100%;
+		height:70px;
+	}
+	
+	.col-full img{
+		height:210px;
+	}
+	
+	.col-one-three img{
+		height:170px;
+	}
+
+	.col-quarter img{
+		width:100%;
+		height:150px;
+	}
+	
+	.col-one-three .head, .col-one-three .title, .col-quarter .head, .col-quarter .title{
+		font-size:80%;
+	}
+	
+	.social_media img{
+		width:100px;
+		height:100px;
+	}	
+}
+
+/*for big mobile*/
+@media only screen and (max-width:768px) and (min-width:480px)
+{
+	#slogan{
+		width:97%;
+		margin-top:-0.5%;
+		padding-top:0.5%;
+		padding-bottom:0.5%;
+		padding-left:1%;
+		padding-right:1%;
+	}
+	
+	#slogan img{
+		width:100%;
+		margin-top:2%;
+	}
+	
+	.search{
+		height:30px;
+		margin-bottom:2%;
+	}
+	
+	#nav_advert img{
+		height:90px;
+	}
+	
+	.update_head{
+		width:15%;
+	}
+
+	.update_content{
+		width:82%;
+	}
+	
+	#content_top_stories #top_stories .post_title{
+		padding:2.5% 0px;
+		font-size:95%;
+	}
+	
+	.col-one-three .head, .col-one-three .title, .col-quarter .head, .col-quarter .title{
+		font-size:70%;
+	}
+}
+
+
+/*iPhone 6 Plump landscape width: 736px*/
+@media only screen and (max-width:736px)
+{
+	#slogan{
+		width:98%;
+	}
+	
+	#content_top_stories{
+		height:260px;
+	}
+	
+	#content_top_stories #top_stories_advert{
+		width:25%;
+	}
+	
+	#top_stories_advert img{
+		margin-top:4%;
+	}
+	
+	#content_top_stories #top_stories{
+		width:69%;
+	}
+	
+	#top_stories img{
+		height:250px;
+	}
+	
+	#content_top_stories .side_stories{
+		display:none;
+	}
+	
+	.col-quarter{
+		width:29.3%;
+	}
+	
+	.col-one-three{
+		width:46%;
+	}
+	
+	.col-full img{
+		height:210px;
+	}
+	
+	.col-one-three img{
+		height:170px;
+	}
+
+	.col-quarter img{
+		height:150px;
+	}
+	
+	.col-one-three .head, .col-one-three .title, .col-quarter .head, .col-quarter .title{
+		font-size:70%;
+	}
+	
+	.social_media img{
+		width:100px;
+		height:100px;
+	}
+}
+
+/*Android (Nexus 4) landscape · width: 600px*/
+@media only screen and (max-width:600px)
+{
+	#view_story, #view_story_advert, .col-full, .col-half, .col-one-third, .col-quarter, .col-one-fifth{
+		width:96%;
+	}
+	
+	#view_story img{
+		height:200px;
+	}
+	
+	#nav_hide{
+		display:none;
+	}
+	
+	#click_me_btn img{
+		width:6%;
+		margin-top:1%;
+	}
+	
+	#view_story .post_title{
+		font-size:90%;
+	}
+	
+	#view_story_advert img{
+		width:96%;
+	}
+	
+	.col-one-three .head, .col-one-three .title, .col-quarter .head, .col-quarter .title{
+		font-size:90%;
+	}
+	
+	.col-full img, .col-one-three img, .col-quarter img{
+		height:250px;
+	}
+	
+	#latest_update{
+		width:96%;
+	}
+
+	.update_head{
+		width:18%;
+	}
+
+	.update_content{
+		width:75%;
+	}
+	
+	#slogan .col-half img{
+		width:80%;
+	}
+	
+	#news_content .col-half .col-half{
+		width:46%;
+	}
+	
+	.social_media img{
+		width:150px;
+		height:150px;
+	}
+	
+	.search{
+		height:40px;
+	}
+	
+	#news_content .col-one-three{
+		width:96%;
+	}
+}
+
+/*iPhone 6 Plump portrait · width: 414px*/
+@media only screen and (max-width:475px) and (min-width:320px)
+{
+	#news_content .col-one-three{
+		width:96%;
+	}
+	
+	#nav_hide{
+		display:none;
+	}
+	
+	#click_me_btn img{
+		width:8%;
+		margin-top:1%;
+	}
+	
+	.search{
+		height:35px;
+	}
+	
+	#nav_advert img{
+		height:70px;
+	}
+	
+	.update_head{
+		width:92%;
+	}
+	
+	.update_content{
+		width:96%;
+	}
+	
+	#content_top_stories #top_stories_advert{
+		display:none;
+	}
+	
+	#content_top_stories #top_stories{
+		width:97%;
+	}
+	
+	#slogan .col-half img{
+		width:100%;
+	}
+}
